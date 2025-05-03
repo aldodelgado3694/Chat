@@ -1,0 +1,187 @@
+# Pasos para un proyecto de BI
+
+1. Comprende necesidades
+2. Análisis de brecha de datos
+3. Selección de priorización de objetivos
+4. Requisitos detallados y diseño
+5. Selección de datos
+6. Preparación de datos.
+7. Modelado de datos
+8. Visualización de datos
+9. Cometarios de usuarios
+10. Gobernanza de los datos
+
+"Planificar los datos es planificar el éxito"
+
+## Stakeholdes
+
+1. Clasificación.
+- Influyentes
+- Afectados
+- Importantes
+-Rechazan el proyecto.
+
+2. Determina los niveles de influencia
+- Alta/baja influencia
+- Alto/bajo Interés
+3. Comprende las necesidades de los involucrados
+- Interactuar con ellos
+- Cual es su interés por el proyecto
+4. Mantén informado a los stakeholders
+- Dar respuestas e involucrarlos
+- Enviar reportes
+
+## Entrevistas efectivas
+"La pregunta correcta convierte los datos en valor"
+
+1. Propósito
+2. Publico objetivo
+- Internos
+- Externos
+3. Diseños efectivos
+- No hacer un tablero solo por que si, hacer lo necesarios según la necesidad
+4. Datos y calidad de los mismo
+5. Selección de tipo de visualización.
+
+"Una buena entrevista abre el paso a mejores decisiones"
+
+# Datos , Gobernanza
+
+1. Gobernanza de los datos
+- Políticas en manejo de información
+- Donde se guardan
+- Formatos
+- Administración
+- -Estandarizar datos por ejemplo de fecha siempre manejar el mismo formato
+2. Repositorio de los datos.
+- Donde se alojara
+- No guardar en un solo computador
+- La nube o un lago de datos.
+- Datos estructurados y no estructurados, deciden donde se guardara.
+3. Acceso a los datos
+- Determina como se accederá a los datos.
+5. Madurez de los datos
+- Importante
+- Tipos:
+    * Exploratoria > No se sabe a donde nos llevaran aun los datos, sabemos que existen.
+    * Asimilación > Enfocada a usuarios, atender fuentes internas y externas
+    * Liderar con datos > Utilizar los datos, hacer estrategias con lo analizado.
+    * Liderazgo > Tomar decisiones conforme a los datos maduros
+    * Innovación > Tomar los datos y crear escenarios hipotéticos a futuro. (Ciencia de datos)
+
+"La madurez de los datos marca la diferencia entre insigths y opiniones"
+
+## Técnicas de visualización
+
+1. Precision de datos y cuidado de no sobrecargar vistas
+2. Estética visual > Mantenerla y que sean agradables
+3. Segmentación por personal dirigido > Alimentar con datos dependiendo de tonicidad o interés.
+4. Estructura y enfoque > Determina publico objetivo, Estructura los datos para presentarlos efectivamente conforme al publico.
+5. Figuras con clasificación > No usar graficas de tendencia con graficas de segmentación.
+
+## Tipos de datos
+
+"Los tipos de datos correctos son las bases de decisiones correctas"
+
+1. Datos numéricos > Computo, continuidad, poder hacer medidas, divisiones, MAX MIN
+2. Categóricos > Niño adulto, Sexo
+3. Datos como atributo
+
+## Diseño de datos
+
+1. Estructura
+- Jerarquía de información y visual
+- Diseño en F inicia en la parte superior izquierda has la derecha y bajar como en F
+- Diseño en Z recorres desde la parte superior, sigues en cuerpo de Z relacionada con la primer parte, al final el cierre de la información e la base de la Z
+2. Estética
+- Tipología de color, no combines colores que no contrasten. Juega con la entidad corporativa.
+- Topografía, no uses letra no legibles, juega con tamaños de fuentes y letras.
+3. Usabilidad
+- Que sea útil y claro, contesta preguntas con las tablas 
+4. Accesibilidad
+- Perceptible > Interesados pueden usar e interactuar con la información
+- Operable > Si son dinámicas, debe de sr sencillo para el visualizador
+- Comprensible > Se entendible por los diferentes stakeholders
+- Robusto > La información debe ser confiable, veraz y oportuna
+
+## Modelado de datos
+
+1. Usar DM para datos de dimensión
+- dmInventario
+- Es una tabla relacionada, puede ser tabla de clientes, productos
+2. Fact para tabla de datos de hechos
+- FactProductos
+- Es la tabla con el histórico de los datos, contiene toda la información que vamos a analizar y trabajar, aquí se usara la tabla de dimensión por ejemplo con el ID de cliente o de producto.
+
+# Dashboards efectivos
+
+1. Indexado de datos
+- Tabla de dimensión es de 1 a Muchos "1:*"
+- Es importante configurar esto en la pestaña de modelado
+2. Visualización de datos
+- Definir el publico objetivo, Definir donde se visualizara y modificar el tamaño del lienzo.
+- Tipos de gráficos
+    - Barras y columnas > Son buenos para segmentar, agrupar, compilar, por ejemplo genero con una medida de números, tienen eje X y Y
+    - Lineal y ares > Como el primero pero nos permite ver una tendencia en el tiempo, por ejemplo seguir la temperatura en un lugar.
+    - Cascada, embudo y dispersión > Permite ver correlación entre datos, comparar datos en eje x y y.
+    - Grafico circular, anillos y rectángulos > Ventas por mes por día, ver los volúmenes de los datos. Ayuda a visualizar la porción de cada genero.
+    - Mapas > Espaciar datos por localización, por ejemplo ver en que tienda se vendió mas en un mapa.
+    - Medidor, tarjeta y KPI > Nos da impacto , por ejemplo metas, Cuanto se vendió, inventario restante.
+    - Segmentación de datos > Dar dinamismo a los datos.
+    - Tabla y matriz
+    - Objetos visuales de IA
+
+## Mejorando las visualizaciones
+
+1. herramientas externas
+- Podemos mejorar la vista de nuestros dashboards
+- PowerPoint para el uso de imágenes en Power BI, edición de imágenes y guardado como SVG para agregar a Power BI.
+2. Mantener relevancia en colores
+- Usar herramientas como color Hunt para usar los colores que mejor se adapten entre ellos
+3. Mantener la relación de texto
+- Cambiar fuentes, que se vea bien el grafico. 
+4. Contexto de los datos
+- Cambiar títulos de gráficos para que la información sea coherente
+- Cambiar formatos para visualizar los datos como son por ejemplo poner signo de pesos o de porcentaje.
+5. Resaltar datos.
+- Poner en negrita la información para dar fuerza a los datos que son importantes para el usuario.
+
+# Análisis de series temporales
+
+- Son datos que se analizan con el factor tiempo.
+- Se usan para enriquecer los datos, mas datos mas rica la visualización, 
+- "Tipo de análisis": Causas, ciclos, predicciones.
+    - Análisis del pasado
+    - Saber que nos afecta
+    - Hacer predicciones
+"Crear una tabla de tiempo para generar análisis de series temporales" -
+
+```js
+Date = CALENDAR(date(2024,1,1),date(2030,1,1))
+```
+
+#Vizualizacion de datos Geoespaciales
+
+- Impactar atreves del tiempo y ubicaciones.
+- Latitud y longitud.
+- Clasificar los datos de ciudad y país.
+- Usar mapa indicado depende de los datos y la razón del reporte. 
+    1. Mapa Coropletico: Para delimitar toda el área de un lugar, puede servir para marcar las ciudades donde tenemos clientes.
+    2. Mapa normal: Sirve para poder dar una métrica de donde vendemos mas por ejemplos, ya que nos da unos puntos con un orden de magnitud para tener un visual de donde hay mas o menos de cada que.
+
+# Visualización de redes y nodos 
+
+- Nodos y grafos sirven para relacionar información
+
+# Buenas practicas
+
+1. Al realizar la graficas y dashboard, hacer un resumen dando la opinión y estrategias de como proseguir con la información obtenida.
+2. 
+
+
+
+
+
+
+
+

@@ -1,0 +1,166 @@
+Herramientas Power BI tablon Python para BI
+
+Business Intelligence
+
+El pasado y presente de la organización
+
+Ciencia de datos del futuro y predicciones de a donde ir
+
+Preparación, descubrimiento y presentación de información.
+
+
+ETL (Extract, Transform y Load)
+
+
+Como? Presentación
+
+Visualización, Storytelling (Narrativa de descubrimiento) y recomendaciones (Dar el punto de vista para la toma de decisiones)
+
+-Stakeholders 
+
+Personas o grupos de interés relacionadas con la empresa.
+
+Accionistas, clientes, empleados, proveedores, sociedad y gobierno.
+
+Tomarlos en cuenta. Ver sus intereses. Que necesidades tienen cada uno de ellos.
+
+Entender los intereses de cada uno de los Stakeholders
+
+Se tiene que tener una prioridad dependiendo del negocio
+
+"La razón del BI es salvaguardar los intereses de los stakeholders"
+
+
+Productos o servicios (Tipos de negocios)
+
+Empresa tradicional
+
+Utilidad bruta = Ingresos -costo de venta
+Utilidad operativa = U. Bruta - gasto administrativo/operacional
+Utilidad neta = U. Operativa - Otros gastos e ingresos - impuestos.
+
+Empresa de Servicios
+
+Los costos de venta son menores
+
+Los costos generalmente son administrativos o operativos
+
+Empresa de Productos
+
+Costos de ventas = ventas -costos de hacer el producto.
+
+Tenemos que entender donde afecta cada uno de nuestros gastos.
+
+?R Si la materia prima sube de precio afecta a la utilidad bruta.
+
+
+Income statement = estado de resultados
+
+Utilidad operativa es alta, renta, publicidad, son altos y hay que mejorar por ahí.
+
+Analizar como afecta cada item en la utilidad operativa.
+
+
+"Piensa de lo particular a lo general"
+
+Ingreso
+
+No tiene o no se le ha sustraído los gastos por vender u operar, ventas x precios
+
+Utilidad "Mayor ingreso no es lo mismo que mayor utilidad"
+
+Es la ganancia ya restada de los gatos que implican obtener a esta misma Utilidad
+
+Costos
+
+En necesario conocer los costos, Puede ser fijo (Constantes como rentas, servicios), variables (Relacionados con actividad, a mayor ventas mayor costos ya sea de materia prima o operatividad) o semivariables(Depende de muchas variables, agua,luz, servicios ocasionales)
+
+Mayor costo no siempre significa menor utilidad( Como invertir en publicidad, mejor material o herramienta, software que disminuyan costos operativos)
+
+-Margen de contribución
+
+Es importante dentro del BI, es un resumen de afectaciones de mi utilidad. 
+
+Margen de contribución = precio de venta - costo de producir
+
+Punto de equilibrio
+
+El punto exacto donde no hay perdidas peor tampoco ganancias, lo mínimo necesario para seguir operando.
+
+PE = Costo fijos/ (Precio de venta - costo variable por unidad)
+PE(Si solo se tiene le margen de contribución) = Gasto operativos / margen de contribución
+
+-Razones matemáticas en los negocios
+
+Relación entre dos magnitudes o valores
+
+Cuanto de cada objeto 1 existe por cada objeto o magnitud 2
+
+"Piensa en porcentajes"
+
+Sirven para comparar rendimiento de manera mas sencilla.
+
+% de ganancia = Ingresos de utilidad brutas/Utilidades netas 
+
+Ejemplos:
+
+% de ganacias = Utilidad / Ingresos
+
+% de margen pro producto = Margen de contribución / precio
+
+% de Aportación de producto =  ventas de producto "A" / Ventas
+
+
+-Inicio de proceso de ETL
+
+Extraer información de silos
+
+Limpieza de los datos, que la información sea entendible(Si de mete data basura, se obtendrá una salida basura.
+
+También nos sirve como primer acercamiento para empaparse de los datos y hacerse las primeras preguntas.
+
+Usar Excel, lenguajes de programación, entre otros. 
+
+Exploración de datos, ayuda a hacernos preguntas, ver patrones en los datos, que sucede,
+
+Softwre de exploración, Tabloid, Power BI, Python, R
+
+highlights: descubrimientos que hacemos al momento explorar nuestro información.
+
+"Esforzarte en entender la información"
+
+
+Reporting: Presentar la información que logramos recabar
+
+Pensar a quien le vamos a entregar, quien será la audiencia y la forma en como se va presentar.
+
+
+Procura el contexto, dar pauta de entendimiento, concentrar información dashboards.
+
+"Una imagen en mejor que 100 palabras."
+
+Storytelling, contar una historia, atrapar a la audiencia.
+
+Describe los descubrimientos, da tus sugerencias.
+
+
+-Buenas practicas
+
+
+Alertas, automatización y live reporting
+
+Reporte en vivo, es común no tener información en tiempo real, tener conectados los recursos de datos para que no nos tomen con sorpresa.
+
+Configurar alertas y alarmas para estar pendiente sobre parámetros o métricas de nuestros datos.
+
+-Eficiencia
+
+Mejorar los procesos, mejorar el uso de recursos para mejorar la utilidad.
+
+
+Siempre tratar de minimizar los costos, para mejorar utilidad.
+
+Hacerlo siempre pensando en los stakeholders.
+
+
+

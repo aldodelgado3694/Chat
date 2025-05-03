@@ -1,0 +1,12 @@
+django
+langchain
+langchain-community
+langchain-chroma
+langchain-text-splitters
+ollama
+sentence-transformers
+watchdog
+python-dotenv 
+pypdf
+# Opcional pero buena práctica
+# Si quieres procesar PDFs (requiere dependencias adicionales):
